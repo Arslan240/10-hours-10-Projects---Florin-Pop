@@ -8,9 +8,9 @@ body {
   margin: 0;
   background: #F4F5FE;
   height: 100vh;
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -34,7 +34,6 @@ ul {
     SIDEBAR 
    =============*/
 .sidebar {
-  display: flex;
   min-width: 300px;
   font-size: .9rem;
   background:#EAECFC ;

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #F4F5FE;
+  height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  font-family: 'Poppins', sans-serif;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+/* ==================
+    LAYOUT
+   ==================  */
+
+
+.main {
+  display: flex;
+}
+
+/* =============
+    SIDEBAR 
+   =============*/
+.sidebar {
+  display: flex;
+  min-width: 300px;
+  font-size: .9rem;
+  background:#EAECFC ;
+  padding: 2em 1em;
+  border-radius: 1em;
+}
+
+.sidebar-icons {
+  cursor: pointer;
+  padding: .7em 1em;
+}
+/* TODO: * change background of sidebar-icons onClick in Javascript. 
+         * then also change the border-radius when the background-color is assigned. */
+.sidebar-icons:hover { 
+  background: #FEFFFE;
+}
+
+.types {
+  margin-left: .6em;
+}
+
+/* =============
+    FAQ SECTION 
+   =============*/
+
+.faq-section {
+  margin-left: 2.5em;
+  max-width: 600px;
+}
+
+/* TODO: * Add border-bottom also when injecting the question.
+         * Also try to add functionality of not adding border-bottom to the last question. May be by using last item index from the array.*/
+.question {
+  display: flex;
+  justify-content: space-between;
+}
